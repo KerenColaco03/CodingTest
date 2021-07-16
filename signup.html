@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up form </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Sign Up</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Please complete the form to signup</h2>
+      <form id="signin">
+        <label for="myFirstName">First Name </label>
+        <input id="myFirstName" name="first name" placeholder="enter your first name" required>
+
+        <label for="myLastName">Last Name </label>
+        <input id="myLastName" name="last name" placeholder="enter your last name"  required>
+
+        <label for="myEmail">Email </label>
+        <input id="myEmail"type="email" placeholder="enter your email" required>
+
+        <label for="myPhoneNo">Phone Number </label>
+        <input id="myPhoneNo" placeholder="enter your phone number" required>
+
+        <label for="myCurrentJobTitle">Current job title </label>
+        <input id="myCurrentJobTitle" placeholder="enter your current job title" required>
+
+        <label for="myPassword">Password </label>
+        <input id="myPassword" type="password" name="password" placeholder="enter your password" maxlength="20" required>
+
+        <label for="myConfirmation">Confirm password </label>
+        <input id="myConfirmation" type="password" placeholder="confirm password" required>
+
+        <label for="myOptions">How did you find out about us? </label>
+        <select  name="options" id="myOptions" required>
+          <option value="university/college">University/College</option>
+          <option value="friend/colleague">Friend/Colleague</option>
+          <option value="advertisement">Advertisement</option>
+        </select>
+
+        <input type="submit" value="signup">
+
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
